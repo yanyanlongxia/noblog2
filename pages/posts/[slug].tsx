@@ -62,12 +62,9 @@ const BlogPost: React.FC<{ post: Post; blocks: BlockMapType }> = ({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  let table = await fetcher(
-    `https://notion-api.splitbee.io/v1/table/${process.env.NOTION_BLOG_ID}`
-  )
+  const table = await getAllPosts();
 
   return {
-    let:table = Array.from(table),
     paths: table.map((row: any) => `/posts/${row.slug}`),
     fallback: false,
   }

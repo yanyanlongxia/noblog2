@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc4dc5d-4765-4b90-a791-d85a38424cae" name="默认的" comment="Update" />
+    <list default="true" id="ebc4dc5d-4765-4b90-a791-d85a38424cae" name="默认的" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[slug].tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602833401466</updated>
-      <workItem from="1602833403534" duration="384000" />
+      <workItem from="1602833403534" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1602833571227</created>
@@ -40,7 +43,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602833571227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1602833830353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602833830353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
